@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Online book sales</title>
+</head>
+<body>
+    <header class='page-header'>
+
+        <div class = 'logo'>
+            <h1>
+                Buy it 
+                <span class = 'black-logo'>online</span>
+                !
+            </h1>
+        </div>
+
+        <div class = 'nav-bar'>
+            <nav class = 'navigator' id = 'navigator'>
+                <button type='button' class='nav-button' id = 'log-in-btn' style = "display:hidden;"> Log in </button>
+            </nav>
+        </div>
+
+    </header>
+    
+    <section class = 'main-section' id ='main-section'>
+        
+    <main class = 'main-div-sign'>
+        <form>
+            <h1 class = 'sing-in-header'>Sign in</h1>
+            <label for="username">User name</label><br>
+            <input class='input' type="text" id="username" name="username" placeholder="username"><br>
+            <br>
+            <label for="password">Passowrd</label><br>
+            <input class='input' type="password" id="password" name="password" placeholder="password"><br>
+            <br>
+            <input  value="Log in" id='submit-log-in' class="submit-button">
+            
+            <h1 class = 'sing-up-header'>Don't have an account? Sign up!</h1>
+            <label for="username2">User name</label><br>
+            <input class='input' type="text" id="username2"  name="username2" placeholder="username"><br>
+            <br>
+
+            <label for="email">Email adress</label><br>
+            <input class='input' type="text" id="email"  name="email" placeholder="email"><br>
+            <br>
+
+            <label for="password2">Password</label><br>
+            <input class='input' type="password" id="password2"  name="password2" placeholder="password"><br>
+            <br>
+
+            <label for="password2c">Confirm password</label><br>
+            <input class='input' type="password" id="password2c"  name="password2c" placeholder="confirm password"><br>
+            <br>
+
+            <input value="Sign up" id='submit-sign-up' class="submit-button">
+            <br>
+        </form>
+        <form action='/upload-images' method="post" enctype="multipart/form-data">
+            <input type='file' name='image' />
+          </form>
+        <br>       
+    </main>
+    </section>
+
+    <footer>
+        Online Books for Everyone!
+        
+    </footer>
+    <br>
+    <br>
+    
+    <script src = "js/log.js"></script>
+    <!-- <script src='js/script.js'></script>
+    <script src='js/addBook.js'></script>
+    <script src='js/login.js'></script>
+    <script src='js/buyBook.js'></script>
+    <script src="js/task-3-12.js"></script>
+    <script src="js/task-2-13.js"></script>
+    <script src="js/task-3-2.js"></script>
+    <script src="js/task-5-1.js"></script>
+    <script src="js/task-3-21.js"></script> -->
+
+</body>
+</html>
